@@ -3,6 +3,7 @@ module:
         extended: true
         min: "0.87.0"
 
+
 params:
     mainSections:
         - post
@@ -27,11 +28,14 @@ params:
             local: true
             src: img/offbeat logo.jpeg
 
+    hasCJKLanguage: true
     article:
         headingAnchor: false
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
+
+        wordCount: true
         license:
             enabled: false
             default: Licensed under CC BY-NC-SA 4.0
