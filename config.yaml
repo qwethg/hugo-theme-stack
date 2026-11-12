@@ -2,7 +2,10 @@ module:
     hugoVersion:
         extended: true
         min: "0.87.0"
-
+services:
+    # GA Tracking ID
+    googleAnalytics:
+        id: "G-RG1HTZ8PVD"
 
 params:
     mainSections:

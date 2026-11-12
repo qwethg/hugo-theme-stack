@@ -23,4 +23,19 @@
 {{ end }}
 
 {{- template "_internal/google_analytics.html" . -}}
+
+<!-- 百度验证 -->
+<meta name="baidu-site-verification" content="codeva-uH9vXBGw0m" />
+
+<!-- 百度统计 -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fee576a77413ed05ea4c8d6247f2d0bc";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
 {{- partial "head/custom.html" . -}}
